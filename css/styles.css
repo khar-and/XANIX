@@ -1,0 +1,80 @@
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    outline: 1px solid red;
+}
+
+
+/* ____________________HERO_______________________ */
+.hero {}
+
+.hero-container {
+    background-image: url(../images/hero-bg.jpg);
+}
+
+.hero-title {
+    display: block;
+    max-width: 872px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-title span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 96px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+
+    max-width: 716px;
+
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.hero-btn {}
