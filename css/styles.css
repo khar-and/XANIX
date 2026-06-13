@@ -37,6 +37,11 @@ img {
 
 .hero-container {
     background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 204px;
+    padding-bottom: 312px;
 }
 
 .hero-title {
@@ -77,4 +82,25 @@ img {
     text-align: center;
 }
 
-.hero-btn {}
+.hero-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+
+
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    text-align: left;
+    border: none;
+    border-radius: 12px;
+}
+
+.hero-icon-btn {
+    margin-left: 10px;
+    /* fill: rgba(96, 71, 206, 1);
+    stroke: rgba(96, 71, 206, 1); */
+}
