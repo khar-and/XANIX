@@ -16,10 +16,15 @@ button {
 ul {
     margin: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 img {
     display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -29,6 +34,61 @@ img {
     margin: 0 auto;
 
     outline: 1px solid red;
+}
+
+/* ___________________HEADER_____________________ */
+
+.header {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.header-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header-logo-icon {}
+
+.header-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header-item {}
+
+.header-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.header-btn {
+    display: block;
+    /* margin: 0 auto; */
+    padding: 16px 32px;
+
+
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    text-align: left;
+    border: none;
+    border-radius: 12px;
 }
 
 
