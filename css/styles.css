@@ -48,8 +48,10 @@ a {
 
 .header-container {
     position: absolute;
+    max-width: 1280px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-logo-link {
@@ -57,14 +59,10 @@ a {
     padding-bottom: 16px;
 }
 
-.header-logo-icon {}
-
 .header-list {
     display: flex;
     gap: 32px;
 }
-
-.header-item {}
 
 .header-link {
     color: rgba(255, 255, 255, 1);
@@ -93,7 +91,6 @@ a {
 
 
 /* ____________________HERO_______________________ */
-.hero {}
 
 .hero-container {
     background-image: url(../images/hero-bg.jpg);
@@ -163,4 +160,71 @@ a {
     margin-left: 10px;
     /* fill: rgba(96, 71, 206, 1);
     stroke: rgba(96, 71, 206, 1); */
+}
+
+/* ________________Running__________________ */
+
+/* .running {
+    background-color: rgba(0, 0, 0, 1);
+} */
+
+.running-wrap {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    overflow: hidden;
+
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.running-list {
+    display: flex;
+    gap: 85px;
+    max-width: 923px;
+    margin: 0 auto;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* __________________Services________________ */
+
+.services {}
+
+.services-container {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.services-wrap {
+    display: flex;
+    gap: 16px;
+}
+
+.services_icon {
+    /* padding: 4px 8px; */
+}
+
+.services-title {
+    max-width: 363px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.services-list {}
+
+.services-item {}
+
+.services-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
 }
