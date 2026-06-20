@@ -583,3 +583,90 @@ a {
     line-height: 1.20;
     text-align: left;
 }
+
+/* ________________FAQs___________________ */
+
+.faqs-container {
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 1);
+
+    display: flex;
+    gap: 24px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.faqs-title-wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.faqs-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.20;
+    text-align: left;
+}
+
+
+
+.faqs-list {
+    width: 845px;
+}
+
+
+.faqs-item details {
+    border-bottom: 1px solid #333;
+    padding: 24px 0;
+}
+
+.faqs-item summary {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    list-style: none;
+    cursor: pointer;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.20;
+    text-align: left;
+}
+
+.faqs-item summary::after {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url(../images/faqs-plus.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    color: rgb(135, 41, 255);
+    border: 1px solid rgb(135, 41, 255);
+    border-radius: 50%;
+
+}
+
+.faqs-item details[open] summary::after {
+    background-image: url(../images/faqs-minus.svg);
+}
+
+.faq-answer {
+    padding-bottom: 24px;
+
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    text-align: left;
+}
