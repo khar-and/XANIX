@@ -5,6 +5,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
     margin: 0;
 }
@@ -481,5 +482,104 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50;
+    text-align: left;
+}
+
+/* _____________TESTIMONIALS_______________ */
+
+
+.testimonials-container {
+    padding: 80px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.testimonials-wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 64px;
+
+}
+
+.testimonials-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.20;
+    text-align: left;
+}
+
+.testimonials-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials-item {
+    width: 324px;
+    padding: 24px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    background-color: rgba(135, 41, 255, 0.24);
+}
+
+.testimonials-item:hover {
+    background-image: linear-gradient(219.64deg,
+            rgba(135, 41, 255, 1) 0%,
+            rgba(81, 24.6, 153, 1) 100%)
+}
+
+.testimonials-stars {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.testimonials-card-title {
+    width: 276px;
+    margin-bottom: 8px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    text-align: left;
+}
+
+.testimonials-card-text {
+    width: 276px;
+    margin-bottom: 26px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    text-align: left;
+}
+
+.testimonials-card {
+    display: flex;
+    gap: 12px;
+}
+
+
+.testimonials-subtitle {
+    margin-bottom: 4px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    text-align: left;
+}
+
+.testimonials-subtext {
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.20;
     text-align: left;
 }
