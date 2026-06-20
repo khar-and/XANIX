@@ -670,3 +670,99 @@ a {
     line-height: 1.50;
     text-align: left;
 }
+
+/* _____________INTRESTED______________ */
+
+.intrested {}
+
+.intrested-container {
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.intrested-wrap {
+    padding: 48px 32px;
+    border-radius: 32px;
+    backdrop-filter: blur(35px);
+    background-color: rgba(135, 41, 255, 0.24);
+}
+
+.intrested-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.60;
+    text-align: center;
+}
+
+.intrested-text::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+
+    /* background-color: rgba(60, 207, 74, 1); */
+
+    background-image: linear-gradient(90deg, rgba(60, 207, 74, 0.01) 0%, rgba(60, 207, 74, 0.24) 0%);
+    ;
+    border-radius: 50%;
+    /* border: 10px solid rgba(60, 207, 74, 0.24); */
+
+}
+
+.intrested-title {
+    max-width: 816px;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.20;
+    text-align: center;
+}
+
+.intrested-subtext {
+    max-width: 816px;
+    margin-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    text-align: center;
+}
+
+.intrested-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intrested-item {}
+
+.intrested-btn {
+    display: block;
+    /* margin: 0 auto; */
+    padding: 16px 32px;
+
+
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    text-align: left;
+    border: none;
+    border-radius: 12px;
+}
